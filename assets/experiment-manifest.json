@@ -1,0 +1,82 @@
+{
+  "format_version": 1,
+  "experiment_id": null,
+  "created_at": null,
+  "parent_experiment": null,
+  "reproduces_experiment": null,
+  "requirements_ref": null,
+  "constraints_ref": null,
+  "original_baseline_ref": null,
+  "comparison_baseline_ref": null,
+  "hypothesis": {
+    "cause": null,
+    "coordinated_changes": [],
+    "expected_mechanism": null,
+    "expected_overall_benefit": null,
+    "selection_reason": null,
+    "method_tree_paths": [],
+    "implementation_level": null,
+    "prerequisites": [],
+    "applicable_cases": []
+  },
+  "implementation": {
+    "revision": null,
+    "source_ref": null,
+    "dependencies_ref": null,
+    "artifacts_ref": null
+  },
+  "environment": {
+    "hardware_ref": null,
+    "image_ref": null,
+    "clocks_ref": null,
+    "toolchain_ref": null,
+    "runtime_ref": null,
+    "resource_configuration_ref": null
+  },
+  "workload": {
+    "cases_ref": null,
+    "input_objects": [],
+    "reference_objects": [],
+    "initial_state_ref": null
+  },
+  "measurement": {
+    "work_unit": null,
+    "scope": null,
+    "start_event": null,
+    "end_event": null,
+    "clock_domain": null,
+    "warmup": null,
+    "repetitions": null,
+    "sampling_reason": null,
+    "acceptance_ref": null
+  },
+  "commands": {
+    "restore": null,
+    "verify_objects": null,
+    "build": null,
+    "run": null,
+    "check": null,
+    "rollback": null
+  },
+  "objects": [],
+  "measurements": [],
+  "checks": [],
+  "evidence": [],
+  "outcome": {
+    "run_status": "not_run",
+    "candidate_decision": "pending",
+    "project_stop_status": null,
+    "benefit_and_cost_ref": null,
+    "confirmed_hypotheses": [],
+    "rejected_hypotheses": [],
+    "uncertainties": [],
+    "accepted_baseline_ref": null,
+    "next_action": null
+  },
+  "reproduction": {
+    "promised_levels": [],
+    "verified_levels": [],
+    "evidence_ref": null,
+    "limitations": []
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "算法与算子优化"
+  short_description: "从需求约束、瓶颈诊断到方案验证与低成本复现，按整体净收益推进优化"
+  default_prompt: "使用 $algorithm-optimization，先核实当前项目的目标、约束与基线，分析瓶颈并按整体净收益选择下一步。"
